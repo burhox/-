@@ -16,11 +16,16 @@ function getvalue () public view returns (int)
     }
     function addition() public 
     {
-       value =a +b;
-      
+
     }
     function getvalue () public view returns (int)
     {
         return value;
+    }
+    function zbritja() public view returns (int)
+    {  
+
+	value = a - b;
+	return value;
     }
 }
