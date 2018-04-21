@@ -8,15 +8,13 @@ contract mathoperations
     int  value;
     function substraction() public
      {
-      value =a /b
+      value =a /b;
+	return value;
       }
-function getvalue () public view returns (int)
-    {
-     return value
-    }
+
     function addition() public 
     {
-
+	value = a + b;
     }
     function getvalue () public view returns (int)
     {
