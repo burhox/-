@@ -21,4 +21,9 @@ contract mathoperations
 	value = a - b;
 	return value;
     }
+     function triangleperimeter(int a, int b , int c) public view returns (int)
+    {
+        value = a + b + c; 
+        return value;
+    }
 }
